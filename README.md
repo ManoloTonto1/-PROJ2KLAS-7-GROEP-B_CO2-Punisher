@@ -2,12 +2,15 @@
 
 Dit project behoort bij deze studenten in de haagse hogeschool
 
-*Akasha Wilms[18104355]
-Demy van Aanhout [21153132] 
-Martijn Gelton [21104689] 
-Layton Overdijk [21121788] 
-Mitchell Ekelschot [21137935]
-Manuel Lopez [20087500]*
+## Authors
+
+- [@Manuel Lopez](https://www.github.com/Manolotonto1)
+- [@Martijn Gelton](https://www.github.com/genedrive)
+- [@Demy van Aanhout](https://github.com/Dtvanaanhout)
+- [@Akasha Wilms](https://github.com/waweewawee)
+- [@Layton Overdijk](https://github.com/Buppis)
+- [@Mitchell Ekelschot](https://github.com/pidip47)
+
 
 Dit project gaat over een Programma in javafx om bullshit te kunnen maken.
 
