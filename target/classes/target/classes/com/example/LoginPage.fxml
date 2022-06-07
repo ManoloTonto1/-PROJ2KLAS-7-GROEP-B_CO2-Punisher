@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="812.0" prefWidth="375.0" style="-fx-background-color: D9DBDE;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.LoginPageController">
+   <children>
+      <Pane layoutX="18.0" layoutY="226.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="360.0" prefWidth="340.0" style="-fx-background-color: FFFFFF; -fx-background-radius: 2;">
+         <children>
+            <Button fx:id="loginButton" layoutX="20.0" layoutY="289.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #00B01E;" text="Sign in" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <CheckBox fx:id="rememberMeCheckbox" layoutX="20.0" layoutY="249.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Remember me">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <Label layoutX="90.0" layoutY="14.0" text="Log in to your account">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordField" layoutX="20.0" layoutY="185.0" prefHeight="40.0" prefWidth="300.0" promptText="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="emailField" layoutX="20.0" layoutY="93.0" prefHeight="40.0" prefWidth="300.0" promptText="Enter Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="20.0" layoutY="66.0" text="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="158.0" text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="162.0" text="Forgot password?" textFill="#37b9ff">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="errorLabel" alignment="CENTER" layoutX="20.0" layoutY="49.0" prefHeight="17.0" prefWidth="300.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>

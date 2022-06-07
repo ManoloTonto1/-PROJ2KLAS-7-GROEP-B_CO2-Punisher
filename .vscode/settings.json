@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "demo/src/main/java/com/example"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.test.config": {
+        "modulePaths": [
+            "demo/src/tests"
+        ],
+    }
+}
